@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | KM Autos Diagnostics</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.contact-section{padding:80px 8%;background:#050505}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;max-width:1200px;margin:auto}
+.contact-card,.feedback-card{background:#111;padding:30px;border-radius:12px;border:1px solid rgba(255,60,0,.25)}
+.contact-card h2,.feedback-card h2{color:#ff3c00;margin-bottom:20px}
+.contact-info p{margin:12px 0;font-size:18px}
+.feedback-form input,.feedback-form textarea{width:100%;padding:14px;margin-bottom:15px;background:#1a1a1a;color:#fff;border:1px solid #333;border-radius:8px}
+.feedback-form button{background:#ff3c00;color:#fff;border:none;padding:14px 28px;border-radius:8px;cursor:pointer}
+.map-container iframe{width:100%;height:450px;border:0;border-radius:12px}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo"><span class="red">KM</span> AUTOS<small>DIAGNOSTICS</small></div>
+<nav>
+<a href="index.html">HOME</a>
+<a href="services.html">SERVICES</a>
+<a href="About.html">ABOUT US</a>
+<a href="contact.html" class="active">CONTACT</a>
+</nav>
+<a href="tel:+919866621114" class="call-btn">📞 CALL NOW</a>
+</header>
+
+<section class="page-banner">
+<h1>CONTACT US</h1>
+<p>Professional Vehicle Diagnostics & Programming Solutions</p>
+</section>
+
+<section class="contact-section">
+<div class="contact-grid">
+<div class="contact-card">
+<h2>Get In Touch</h2>
+<div class="contact-info">
+<p>📧 kranthikmauto@gmail.com</p>
+<p>📞 +91-9866621114</p>
+<p>💬 WhatsApp Support Available</p>
+</div>
+</div>
+
+<div class="feedback-card">
+<h2>Write To Us</h2>
+<form class="feedback-form">
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<input type="tel" placeholder="Phone Number">
+<textarea rows="6" placeholder="Write your feedback or enquiry"></textarea>
+<button type="submit">Submit Feedback</button>
+</form>
+</div>
+</div>
+
+<div style="max-width:1200px;margin:60px auto 0;">
+<h2 style="color:#ff3c00;text-align:center;margin-bottom:20px;">Our Location</h2>
+<iframe src="https://maps.google.com/maps?q=Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</div>
+</section>
+</body>
+</html>
